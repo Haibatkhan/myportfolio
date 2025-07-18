@@ -6,8 +6,8 @@ const headersection = () => {
   return (
     <BootstrapNavbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container className=" container-first ">
-        <img src="/assets/Logo.png" alt="Logo" style={{ height: '60px' }} />
-        <BootstrapNavbar.Toggle aria-controls="navbar-nav" />
+        <img src={process.env.PUBLIC_URL + '/assets/Logo.png'} alt="Logo" style={{ height: '60px' }} />
+         <BootstrapNavbar.Toggle aria-controls="navbar-nav" />
         <BootstrapNavbar.Collapse id="navbar-nav">
           <Nav className=" nav-link ms-auto  ">
             <Nav.Link as={Link} to="/home">HOME</Nav.Link>
