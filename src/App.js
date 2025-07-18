@@ -3,7 +3,7 @@ import HeaderSection from './components/headersection.jsx';
 import HeroSection  from './components/herosection.jsx';
 import Aboutussection from './components/aboutussection.jsx';
 import MyWorkSection from './components/myWorkSection.jsx';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import CardDetailPage from './components/CardDetailPage'
 import MyServicessection from './components/myServicessection.jsx';
 import MyContactsection from './components/myContactsection.jsx';
