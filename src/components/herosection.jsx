@@ -59,10 +59,10 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="container-fluid d-flex     gap-5  px-4 py-5 ">
-        <img  className="logoipsum-first   "  src={process.env.PUBLIC_URL + '/assets/Logoipsum-382.png'} alt="Logo"  />
-        <img  className="logoipsum-second  " src={process.env.PUBLIC_URL + '/assets/Logoipsum-362.png'} alt="Logo"  />
-        <img  className="logoipsum-third "  src={process.env.PUBLIC_URL + '/assets/Logoipsum-382.png'} alt="Logo"  />
-        <img  className="logoipsum-fourth  " src={process.env.PUBLIC_URL + '/assets/Logoipsum-362.png'} alt="Logo"  />
+        <img  className="logoipsum-first   "  src={process.env.PUBLIC_URL + '/assets/logoipsum-382.png'} alt="Logo"  />
+        <img  className="logoipsum-second  " src={process.env.PUBLIC_URL + '/assets/logoipsum-362.png'} alt="Logo"  />
+        <img  className="logoipsum-third "  src={process.env.PUBLIC_URL + '/assets/logoipsum-382.png'} alt="Logo"  />
+        <img  className="logoipsum-fourth  " src={process.env.PUBLIC_URL + '/assets/logoipsum-362.png'} alt="Logo"  />
        
       </div>
       

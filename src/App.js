@@ -27,6 +27,7 @@ function App() {
             <MyContactsection />
           </>
         } />
+        <Route path="/home" element={<HeroSection />} />
         <Route path="/about" element={<Aboutussection />} />
         <Route path="/projects" element={<MyWorkSection />} />
         <Route path="/services" element={<MyServicessection />} />
