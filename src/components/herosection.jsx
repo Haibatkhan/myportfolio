@@ -11,7 +11,7 @@ const HeroSection = () => {
     <section>
       <div
         className="hero-section d-flex align-items-center text-white"
-        style={{backgroundImage: "url('/assets/hero-bg.avif')",}}>
+        style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/hero-bg.avif)`}}>
         <div className="container">
           <div className="row align-items-center">
             {/* Left Column (Text) */}
@@ -48,8 +48,9 @@ const HeroSection = () => {
             {/* Right Column (Image) */}
             <div className="col-lg-6 col-12 text-center mt-2 mt-lg-0">
               <img
-                src="/assets/haibat..png"
-                alt="Jenna Ortega"
+                src={process.env.PUBLIC_URL + '/assets/haibat..png'} 
+                alt="Haibat"
+                
                 className="img-fluid rounded"
                 style={{ maxHeight: '400px' }}
               />
@@ -58,10 +59,10 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="container-fluid d-flex     gap-5  px-4 py-5 ">
-        <img  className="logoipsum-first   "  src="/assets/Logoipsum-382.png" alt="Logo" />
-        <img  className="logoipsum-second  " src="/assets/Logoipsum-362.png" alt="Logo" />
-        <img  className="logoipsum-third "  src="/assets/Logoipsum-382.png" alt="Logo" />
-        <img  className="logoipsum-fourth  " src="/assets/Logoipsum-362.png" alt="Logo" />
+        <img  className="logoipsum-first   "  src={process.env.PUBLIC_URL + '/assets/Logoipsum-382.png'} alt="Logo"  />
+        <img  className="logoipsum-second  " src={process.env.PUBLIC_URL + '/assets/Logoipsum-362.png'} alt="Logo"  />
+        <img  className="logoipsum-third "  src={process.env.PUBLIC_URL + '/assets/Logoipsum-382.png'} alt="Logo"  />
+        <img  className="logoipsum-fourth  " src={process.env.PUBLIC_URL + '/assets/Logoipsum-362.png'} alt="Logo"  />
        
       </div>
       

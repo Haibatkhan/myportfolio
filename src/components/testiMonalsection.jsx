@@ -5,21 +5,22 @@ import Slider from 'react-slick';
 const testimonials = [
   {
     id: 1,
-    image: '/assets/profile4.jpg',
+    image: process.env.PUBLIC_URL + '/assets/profile4.jpg',
     paragraph: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .',
     name: 'PAMELA ENDERES',
     role: 'Company Name'
   },
   {
     id: 2,
-    image: '/assets/profile2.jpg',
+   image: process.env.PUBLIC_URL + '/assets/profile2.jpg',
+
     paragraph:'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .',
     name: 'Jane Smith',
     role: 'Company Name'
   },
   {
     id: 3,
-    image: '/assets/profile3.jpg',
+   image: process.env.PUBLIC_URL + '/assets/profile3.jpg',
     paragraph:'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .',
     name: 'Mark Wilson',
     role: 'Company Name'

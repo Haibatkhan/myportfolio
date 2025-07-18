@@ -10,7 +10,7 @@ const aboutussection = () => {
         {/* Left Column (Image) */}
         <div className="image-card col-lg-6 col-12 text-center mb-3 mt-lg-0 ">
           <img
-            src="/assets/haibat..png"
+            src={process.env.PUBLIC_URL + '/assets/haibat..png'} 
             alt="Haibat Mehran"
             className="img-second rounded border"
            

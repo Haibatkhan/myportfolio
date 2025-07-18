@@ -3,7 +3,7 @@ export const cards = [
     id: 1,
     title: 'Marketing Website',
     subtitle: 'Web Design, App Design',
-    image: '/assets/card2.avif',
+    image: process.env.PUBLIC_URL + "/assets/card2.avif",
     details: {
       title: 'Website Design for Marketing Agency Startup',
       description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -21,7 +21,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     id: 2,
     title: 'Marketing Website',
     subtitle: 'Web Design, App Design',
-    image: '/assets/card3.avif',
+    image: process.env.PUBLIC_URL + '/assets/card3.avif',
     details: {
       title: 'Website Design for Marketing Agency Startup',
       description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -39,7 +39,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     id: 3,
     title: 'Marketing Website',
     subtitle: 'Web Design, App Design',
-    image: '/assets/card1.avif',
+   image: process.env.PUBLIC_URL + '/assets/card1.avif',
     details: {
       title: 'Website Design for Marketing Agency Startup',
       description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -57,7 +57,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     id: 4,
     title: 'Marketing Website',
     subtitle: 'Web Design, App Design',
-    image: '/assets/card4.avif',
+    image: process.env.PUBLIC_URL + '/assets/card4.avif',
     details: {
       title: 'Website Design for Marketing Agency Startup',
       description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -75,7 +75,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     id: 5,
     title: 'Marketing Website',
     subtitle: 'Web Design, App Design',
-    image: '/assets/card5.avif',
+    image: process.env.PUBLIC_URL + '/assets/card5.avif',
     details: {
       title: 'Website Design for Marketing Agency Startup',
       description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -93,7 +93,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     id: 6,
     title: 'Marketing Website',
     subtitle: 'Web Design, App Design',
-    image: '/assets/card6.avif',
+    image: process.env.PUBLIC_URL + '/assets/card6.avif',
     details: {
       title: 'Website Design for Marketing Agency Startup',
       description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

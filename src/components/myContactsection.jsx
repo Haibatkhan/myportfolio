@@ -10,7 +10,7 @@ const myContactsection = () => {
         {/* Left Image Side */}
         <div className="image-contact text-center mb-3 mt-lg-0">
           <img
-            src="/assets/haibat..png"
+           src={process.env.PUBLIC_URL + "/assets/haibat..png"} 
             alt="Haibat Mehran"
             className="img-contact rounded border"
           />
